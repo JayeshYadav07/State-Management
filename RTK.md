@@ -24,24 +24,6 @@ src/
 └── index.js
 ```
 
-## Actions
-
-Define the action types and action creators for incrementing and decrementing the counter.
-
-```js
-// src/actions/index.js
-export const INCREMENT = "INCREMENT";
-export const DECREMENT = "DECREMENT";
-
-export const increment = () => ({
-    type: INCREMENT,
-});
-
-export const decrement = () => ({
-    type: DECREMENT,
-});
-```
-
 ## Counter Slice
 
 Define the slice that contains the reducer logic and action creators.
